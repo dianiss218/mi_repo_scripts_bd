@@ -10,7 +10,7 @@ GO
 
 CREATE TABLE [dbo].[Products](
 	[ProductID] [int] IDENTITY(1,1) NOT NULL,
-	[ProductName] [nvarchar](40) NOT NULL,
+	[ProductName] [nvarchar](100) NOT NULL,
 	[SupplierID] [int] NULL,
 	[CategoryID] [int] NULL,
 	[QuantityPerUnit] [nvarchar](20) NULL,
